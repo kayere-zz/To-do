@@ -13,7 +13,7 @@ class ListAdapter(private val list: List<String>) : RecyclerView.Adapter<ListAda
             ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent))
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-
+        // TODO: 07/12/2020  add implementation 
     }
 
     override fun getItemCount(): Int = list.size
