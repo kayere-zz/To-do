@@ -1,8 +1,9 @@
-package com.example.to_dolist
+package com.example.to_dolist.main_activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import com.example.to_dolist.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
