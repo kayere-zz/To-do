@@ -11,7 +11,7 @@ import com.google.android.material.textview.MaterialTextView
 class ListAdapter(private val list: List<ToDo>) : RecyclerView.Adapter<ListAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder =
-            ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent))
+            ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent, false))
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.textView.text = list[position].content
